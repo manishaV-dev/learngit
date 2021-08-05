@@ -1,1 +1,3 @@
 some randome file
+
+for unstage used --staged.
