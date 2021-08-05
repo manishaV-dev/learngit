@@ -1,0 +1,22 @@
+Tracking our first projects:
+
+open folder -> create files -> right click -> open gitbash
+
+	git status 
+		//fatal : not a git repository
+	
+	git init
+		// init is used to make that folder git repository.
+		initialize empty git repository
+	
+	git status
+		//Now show one branch master
+
+	To add a file in staging area
+	git add --a
+	
+	git commit -m "Message"
+		//to create a commit
+
+	git log
+		// to know commit which you done before

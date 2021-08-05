@@ -1,0 +1,69 @@
+1. Git & Github
+
+Git is a version control system , developed by Linus Torvalds in 2005.
+
+uses: 
+	i)	Easily recover files.
+	ii)	It show who introduced issue and when?
+	iii)	Roll back to previously working state.
+
+History of version control system:
+
+=> Local VCS(Version Control System)
+	i)	use database to keep track of files.
+	ii)	pros: can track files and rollback.
+	iii)	cons: If your hard disk damaged, Everything is lost.
+
+=> Centralized VCS
+	i)	If server damaged all file will be lost.
+
+=> Distributed VCS
+	i)	It give complete backup.
+	ii)	Track files and rollback.
+
+Features of Git:-
+
+i)	Snapshot capture not difference.
+	.git file(Hidden file that contains history of your projects)
+
+ii)	Almost every operation is local.
+
+iii)	Git ha integrity(secure).
+		if someone change anything in your file git show who and when changes are done.
+
+iv)	Git generating only add data.
+
+===============================================================================================================
+
+Intalling Git.......
+
+Open folder where you want to use git -> Right click -> use gitbash here
+
+	commands:
+	
+	git config --global user.name YOUR_NAME 
+
+	git config --global user.email YOUR_EMAIL
+
+	git config --list
+
+	git config user.name
+		// show your name
+
+	git config user.email
+		// show your email
+
+=================================================================================================================
+
+Git -- Three stage Architecture
+
+i)	working directory
+ii)	staging area
+ii)	git directory(repository)
+
+=================================================================================================================
+
+
+							-- By Manisha Varma							
+
+
